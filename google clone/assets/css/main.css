@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;	
+}
+a {
+	text-decoration: none;	
+}
+.container {
+	position: relative;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;
+}
+
+
+
+
+
+/* Header Section */
+
+.header {
+	height: 50px;
+	position: relative;
+	font-size: 14px;
+	font-family: Arial;
+}
+.headerLink {
+	color: black;
+}
+.header li {
+	margin-right: 17px;		
+}
+.header ul {
+	margin-right: 20px;
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+#grid {
+	position: relative;
+	top: 10px;
+}
+#button {
+	display: inline-block;
+	position: relative;
+	background: #4487FC;
+	height: 28px;
+	width: 69px;
+	top: -9px;
+	border-radius: 3px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+/* Logo Section */
+
+.logo {
+	margin: 150px auto 24px;
+	width: 538px;
+	height: 190px;	
+}
+
+
+
+
+
+/* Form section */
+
+.form {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+.form, input {
+	width: 571px;
+	height: 29px;
+	background: url(../img/microphone.png) no-repeat;
+	background-size: 27px 27px;
+	padding: 0px;	
+}
+.form, input {
+	border: 1px solid #d6d6d6;
+}
+.form:hover, input:hover {
+	border: 1px solid #bfbfbf;
+}
+#luckyButton {
+	margin-left: 16px;
+}
+.formButtons {
+	margin-top: 16px;
+	text-align: center;
+	position: relative;
+}
+
+
+
+
+
+/* Footer Section */
+
+.footer, .push {
+	height: 40px;
+	
+}
+.footer {
+	position: relative;
+}
+.footer li {
+	margin-left: 32px;
+}
+.footerLeft {
+	position: absolute;
+	
+	top: 10px;
+}
+.footerRight {
+	position: absolute;
+	right: 32px;
+	top: 10px;	
+}
